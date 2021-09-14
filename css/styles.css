@@ -1,0 +1,78 @@
+* {
+  text-align: center;
+  text-decoration: none;
+  font-family: "Glory", sans-serif;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+.Intro {
+  background-color: whitesmoke;
+  padding: 50px;
+  margin: 0;
+  border: 0;
+}
+.Intro p {
+  color: grey;
+  font-size: 1rem;
+}
+.projects p {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+.profilePic {
+  width: 60vw;
+}
+.portImg {
+  width: 85vw;
+}
+.Portfolio {
+  font-size: 0.9em;
+  font-weight: 600;
+  margin: 2.5em;
+}
+
+h3 {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+footer {
+  background-color: whitesmoke;
+  height: 12.5%;
+}
+strong {
+  font-weight: 600;
+  color: grey;
+}
+.contact {
+  color: black;
+  margin-bottom: 1.5em;
+}
+.contact p {
+  color: grey;
+}
+h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+.button {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.button1 {
+  flex-basis: 100%;
+}
+.button2 {
+  flex-basis: 100%;
+}
+.button3 {
+  flex-basis: 100%;
+}
+.projects p {
+  font-size: 1em;
+  padding: 1em;
+}
