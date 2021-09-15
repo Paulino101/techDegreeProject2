@@ -1,78 +1,147 @@
+/* Base Styles Start */
 * {
-  text-align: center;
-  text-decoration: none;
-  font-family: "Glory", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
-body,
-html {
+body {
   margin: 0;
-  padding: 0;
 }
-.Intro {
+.intro {
   background-color: whitesmoke;
-  padding: 50px;
-  margin: 0;
-  border: 0;
+  padding: 1.5rem;
 }
-.Intro p {
+.intro p {
   color: grey;
-  font-size: 1rem;
-}
-.projects p {
   font-weight: 400;
-  font-size: 1.25rem;
+  margin: 16px;
+  text-align: center;
 }
-.profilePic {
+.intro img {
   width: 60vw;
 }
-.portImg {
-  width: 85vw;
+h1 {
+  text-align: center;
+  font-weight: 700;
 }
-.Portfolio {
-  font-size: 0.9em;
-  font-weight: 600;
-  margin: 2.5em;
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5vh;
+  margin-bottom: 5vh;
 }
-
-h3 {
-  text-transform: capitalize;
-  font-weight: 500;
-}
-footer {
-  background-color: whitesmoke;
-  height: 12.5%;
-}
-strong {
-  font-weight: 600;
-  color: grey;
-}
-.contact {
+nav a {
+  background-color: white;
+  padding: 1vw 50vw;
   color: black;
-  margin-bottom: 1.5em;
+  text-decoration: none;
+  font-weight: 700;
 }
-.contact p {
-  color: grey;
+img {
+  width: 90vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 h2 {
-  font-size: 1em;
-  text-transform: uppercase;
+  text-align: center;
+  font-size: smaller;
+  margin: 2.5rem;
 }
-.button {
-  background-color: white;
+
+.portfolio h3 {
+  text-align: center;
+}
+.portfolio p {
+  text-align: center;
+  margin: 1rem 1.5rem;
+}
+.contact {
+  background-color: whitesmoke;
+  padding: 0.5rem;
+  border-bottom: 0.5px solid grey;
+}
+.contact p {
+  text-align: center;
+  margin: 1em 2em;
+  color: grey;
+  text-decoration: none;
+}
+.contact a {
+  text-decoration: none;
+  color: grey;
+}
+
+footer {
+  background-color: whitesmoke;
   display: flex;
-  flex-wrap: wrap;
-  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  color: black;
 }
-.button1 {
-  flex-basis: 100%;
+footer a {
+  text-decoration: none;
+  color: black;
 }
-.button2 {
-  flex-basis: 100%;
+.tabletFooter {
+  display: none;
 }
-.button3 {
-  flex-basis: 100%;
+/* Base Styles End */
+
+/* Tablet Media Queries */
+@media (min-width: 768px) {
+  nav {
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+  nav a {
+    padding: 0;
+    background-color: whitesmoke;
+  }
+  .introContainer {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .introContainer p {
+    text-align: left;
+  }
+  .introContainer img {
+    width: 30vw;
+    margin: 1vw;
+  }
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: space-between;
+  }
+  .marketing,
+  .search,
+  .travel,
+  .favorite,
+  .photo,
+  .calculator {
+    width: 50vw;
+  }
+  .projects img {
+    width: 48vw;
+  }
+  .topButton {
+    display: none;
+  }
+  .tabletFooter {
+    display: inherit;
+  }
+  .tabletNav {
+    width: 35vw;
+    align-items: center;
+    margin: 0;
+    justify-content: space-evenly;
+  }
 }
-.projects p {
-  font-size: 1em;
-  padding: 1em;
-}
+/* Tablet Media Queries End */
+
+/* Website Media Queris */
