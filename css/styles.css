@@ -35,6 +35,7 @@ nav a {
   color: black;
   text-decoration: none;
   font-weight: 700;
+  padding: 0 100vw;
 }
 img {
   width: 90vw;
@@ -144,7 +145,7 @@ footer a {
 }
 /* Tablet Media Queries End */
 
-/* Website Media Queris */
+/* Website Media Queries */
 @media (min-width: 1024px) {
   .desktopIntro {
     display: flex;
@@ -166,3 +167,4 @@ footer a {
     width: 30vw;
   }
 }
+/* Website Media Queries End */
