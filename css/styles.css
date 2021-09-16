@@ -16,8 +16,11 @@ body {
   margin: 16px;
   text-align: center;
 }
+img {
+  max-width: 100%;
+}
 .intro img {
-  width: 60vw;
+  width: 60%;
 }
 h1 {
   text-align: center;
@@ -35,10 +38,10 @@ nav a {
   color: black;
   text-decoration: none;
   font-weight: 700;
-  padding: 0 100vw;
+  padding: 0 100%;
 }
 img {
-  width: 90vw;
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -110,13 +113,13 @@ footer a {
     text-align: left;
   }
   .introContainer img {
-    width: 30vw;
-    margin: 1vw;
+    width: 30%;
+    margin: 1%;
   }
   .projects {
     display: flex;
     flex-wrap: wrap;
-    width: 100vw;
+    width: 100%;
     justify-content: space-between;
   }
   .marketing,
@@ -125,10 +128,10 @@ footer a {
   .favorite,
   .photo,
   .calculator {
-    width: 50vw;
+    width: 50%;
   }
   .projects img {
-    width: 48vw;
+    width: 48%;
   }
   .topButton {
     display: none;
@@ -137,7 +140,7 @@ footer a {
     display: inherit;
   }
   .tabletNav {
-    width: 35vw;
+    width: 35%;
     align-items: center;
     margin: 0;
     justify-content: space-evenly;
@@ -161,10 +164,10 @@ footer a {
   .favorite,
   .photo,
   .calculator {
-    width: 33vw;
+    width: 33%;
   }
   .projects img {
-    width: 30vw;
+    width: 30%;
   }
 }
 /* Website Media Queries End */
